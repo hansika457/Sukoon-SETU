@@ -1,0 +1,337 @@
+// ignore: unused_import
+import 'package:intl/intl.dart' as intl;
+import 'app_localizations.dart';
+
+// ignore_for_file: type=lint
+
+/// The translations for English (`en`).
+class AppLocalizationsEn extends AppLocalizations {
+  AppLocalizationsEn([String locale = 'en']) : super(locale);
+
+  @override
+  String get ccontinue => 'Continue';
+
+  @override
+  String get name => 'Name';
+
+  @override
+  String get age => 'Age';
+
+  @override
+  String get gender => 'Gender';
+
+  @override
+  String get personalInfoTitle => 'Personal Information';
+
+  @override
+  String get tellUsAboutYou => 'Tell us about yourself';
+
+  @override
+  String get helpUsServeBetter => 'Your info helps us serve you better';
+
+  @override
+  String get selectLanguage => 'Select your preferred language';
+
+  @override
+  String get loginWithPhone => 'Login with Phone';
+
+  @override
+  String get enterPhone => 'Enter your phone number';
+
+  @override
+  String get sendOtp => 'Send OTP';
+
+  @override
+  String get verifyOtp => 'Verify OTP';
+
+  @override
+  String get otpSentTo => 'OTP has been sent to';
+
+  @override
+  String get needHelp => 'Need help? Contact support.';
+
+  @override
+  String get chooseLanguage => 'Choose Language';
+
+  @override
+  String get languageServicePrompt => 'In which language would you like the service?';
+
+  @override
+  String get genderMale => 'Male';
+
+  @override
+  String get genderFemale => 'Female';
+
+  @override
+  String get genderOther => 'Other';
+
+  @override
+  String get nameLabel => 'Name *';
+
+  @override
+  String get nameHint => 'Enter your name';
+
+  @override
+  String get nameError => 'Please enter your name';
+
+  @override
+  String get ageLabel => 'Age *';
+
+  @override
+  String get ageHint => '25';
+
+  @override
+  String get ageError => 'Please enter age';
+
+  @override
+  String get genderLabel => 'Gender *';
+
+  @override
+  String get genderHint => 'Select';
+
+  @override
+  String get genderError => 'Please select gender';
+
+  @override
+  String get professionLabel => 'Profession *';
+
+  @override
+  String get professionHint => 'Your work';
+
+  @override
+  String get professionError => 'Please enter profession';
+
+  @override
+  String get areaLabel => 'Area *';
+
+  @override
+  String get areaHint => 'City/Village name';
+
+  @override
+  String get areaError => 'Please enter area';
+
+  @override
+  String get weightLabel => 'Weight (kg)';
+
+  @override
+  String get weightHint => '60';
+
+  @override
+  String get heightLabel => 'Height (cm)';
+
+  @override
+  String get heightHint => '170';
+
+  @override
+  String get greeting => 'Hello! 👋';
+
+  @override
+  String get howWasYourDay => 'How was your day today?';
+
+  @override
+  String get services => 'Services';
+
+  @override
+  String get aboutUs => 'About Us';
+
+  @override
+  String get adviceFromSetu => 'Advice from Setu';
+
+  @override
+  String get audioBooksStories => 'Audiobooks/Stories';
+
+  @override
+  String get commonMentalHealth => 'Understand Common Conditions';
+
+  @override
+  String get thought => 'Thought of the Day';
+
+  @override
+  String get deepBreathTip => 'Take a deep breath\n5 minutes of practice reduces stress and calms the mind.';
+
+  @override
+  String get doItNow => 'Do it now';
+
+  @override
+  String get homeLabel => 'Home';
+
+  @override
+  String get adviceLabel => 'Advice';
+
+  @override
+  String get booksLabel => 'Books';
+
+  @override
+  String get profileLabel => 'Profile';
+
+  @override
+  String get thoughtOfTheDay => 'Even the smallest step toward healing counts — walk gently but keep walking.';
+
+  @override
+  String get breathingTechniques => 'Breathing Techniques';
+
+  @override
+  String get audioBook1 => 'Life-Changing Motivational Stories';
+
+  @override
+  String get audioBook2 => 'Rural India and Mental Health';
+
+  @override
+  String get audioBook1Link => 'https://www.youtube.com/watch?v=wsNW00J-IIQ';
+
+  @override
+  String get audioBook2Link => 'https://www.youtube.com/watch?v=EiOzFwjFZhQ';
+
+  @override
+  String get yogaLink => 'https://www.youtube.com/watch?pp=0gcJCdgAo7VqN5tD&v=W-e55pc4ZSk';
+
+  @override
+  String get meditationLink => 'https://www.youtube.com/watch?pp=0gcJCdgAo7VqN5tD&v=JuIeF8CMU5k';
+
+  @override
+  String get breathingAnxietyWorry => 'Inhale through your nose for 4 seconds\nHold for 7 seconds\nExhale slowly through your mouth for 8 seconds\nRepeat 4 cycles';
+
+  @override
+  String get breathingAnger => 'Inhale deeply through your nose\nExhale making a soft “hmmm” sound\nFocus on the vibration\nRepeat 5 to 10 times';
+
+  @override
+  String get breathingStressIrritation => 'Close your right nostril with your thumb, inhale through the left\nClose your left nostril, open the right and exhale\nInhale through the right, close it, exhale through the left\nRepeat for 2 to 5 minutes';
+
+  @override
+  String get breathingSadness => 'Sit or lie with one hand on your belly\nInhale slowly through your nose, feel your belly rise\nExhale through your mouth, feel your belly fall\nRepeat for 3 to 5 minutes';
+
+  @override
+  String get breathingCalming => 'Inhale through your nose for 4 seconds\nHold for 1 second\nExhale through your mouth for 4 seconds\nPause for 1 second\nRepeat 5 to 10 times';
+
+  @override
+  String get aboutUsContent => 'Sukoon SETU is a simple, multilingual mental wellness app created especially for India’s underserved and rural communities. With tools rooted in science and culture, we offer breathing techniques, yoga, sound therapy, guided meditation, and mental health audiobooks — all crafted to help you regulate emotions and build inner calm.\nOur intelligent chatbot, SukoonSaathi, answers sensitive mental health questions with compassion and accuracy, using verified knowledge from Indian medical experts and WHO. You can also explore common mental health conditions in easy language, take a quiz to understand your emotional state, or receive a thoughtful reminder with our “Thought of the Day.”\nAccessible in Hindi, English, Marathi, Bengali, and Telugu, Sukoon SETU is your quiet companion on the journey to emotional well-being — because everyone deserves peace of mind.';
+
+  @override
+  String get quizSectionAQuestion1 => 'Do you often feel sad, empty, or hopeless?';
+
+  @override
+  String get quizSectionAQuestion2 => 'Have you lost interest or joy in things you once enjoyed (e.g., farming, chatting, festivals)?';
+
+  @override
+  String get quizSectionAQuestion3 => 'Do you feel tired or lack energy most days?';
+
+  @override
+  String get quizSectionAQuestion4 => 'Do you have trouble sleeping, or sleep too much?';
+
+  @override
+  String get quizSectionAQuestion5 => 'Do you feel restless, angry, or irritable for no reason?';
+
+  @override
+  String get quizSectionBQuestion1 => 'Do you worry too much about daily things (money, health, children)?';
+
+  @override
+  String get quizSectionBQuestion2 => 'Do you feel nervous, fearful, or tense, even when there is no clear danger?';
+
+  @override
+  String get quizSectionBQuestion3 => 'Do you have fast heartbeat, sweating, or shaking when anxious?';
+
+  @override
+  String get quizSectionBQuestion4 => 'Do you have trouble concentrating due to worry or fear?';
+
+  @override
+  String get quizSectionBQuestion5 => 'Do you often feel something bad is going to happen, even without a reason?';
+
+  @override
+  String get quizSectionCQuestion1 => 'Do you sometimes hear voices or see things others do not?';
+
+  @override
+  String get quizSectionCQuestion2 => 'Do you believe that others are watching or trying to harm you?';
+
+  @override
+  String get quizSectionCQuestion3 => 'Do you talk to yourself or act in a way that others find strange or confusing?';
+
+  @override
+  String get quizSectionCQuestion4 => 'Have you ever forgotten what you did for long periods of time?';
+
+  @override
+  String get quizSectionCQuestion5 => 'Do you feel like you are not yourself, or as if you are watching your own life?';
+
+  @override
+  String get quizSectionDQuestion1 => 'Do you drink alcohol or take tobacco/drugs regularly?';
+
+  @override
+  String get quizSectionDQuestion2 => 'Do you feel you cannot stop using alcohol/drugs even if you try?';
+
+  @override
+  String get quizSectionDQuestion3 => 'Has alcohol or drug use caused problems at home, work, or in health?';
+
+  @override
+  String get quizSectionDQuestion4 => 'Do you use substances to feel better when you\'re sad or anxious?';
+
+  @override
+  String get quizSectionDQuestion5 => 'Have people asked you to cut down on drinking or drug use?';
+
+  @override
+  String get quizSectionEQuestion1 => 'Have you been avoiding people or staying alone more than before?';
+
+  @override
+  String get quizSectionEQuestion2 => 'Are you able to work properly or manage household responsibilities?';
+
+  @override
+  String get quizSectionEQuestion3 => 'Do you feel ashamed, useless, or like a burden to others?';
+
+  @override
+  String get quizSectionEQuestion4 => 'Have you ever thought about harming yourself or ending your life?';
+
+  @override
+  String get quizSectionEQuestion5 => 'Do you feel there is no reason to live? ';
+
+  @override
+  String get diabetes => 'Diabetes\n\n🩺 Diabetes is a long-term condition where sugar stays in your blood instead of going into your cells for energy, due to lack of insulin or poor insulin use. High sugar levels over time can damage the heart, kidneys, eyes, and nerves.\n⚠️ Common symptoms include:\n\n feeling very thirsty,\n frequent urination (especially at night),\n constant tiredness,\n blurry vision,\n sudden weight loss,\n slow-healing wounds,\n numbness or tingling in hands or feet.\n✅ What you can do:\n\n🍽️ Eat smarter\n avoid sweets and soft drinks,\n eat more vegetables,\n fruits,\n and whole grains,\n limit fried food,\n eat meals on time.\n🏃 Stay active\n walk or move at least 30 minutes daily,\n even household work helps,\nLose some weight—just 5–10% weight loss can improve sugar control.\n🧪 Get tested—especially if you\'re 35+, overweight, or have a family history.\n🚭 Avoid smoking,\n alcohol,\n sugary drinks(choose water buttermilkor unsweetened tea.),\n🧘‍♀️ Take care of your mental health—diabetes can be stressful, so talk to someone and try to stay calm, as stress also raises blood sugar.\n📌 See a doctor if you notice symptoms like blurry vision, tiredness, frequent urination, slow-healing wounds, or numbness—even if you feel okay.';
+
+  @override
+  String get bloodPressure => 'Blood Pressure\n\n🫀 What is Blood Pressure (BP)?\n• BP is the force of blood pushing against artery walls when the heart pumps.\n• High BP (hypertension) happens when this pressure stays high for too long.\n• It often has no symptoms but can damage heart, kidneys, brain, and eyes over time.\n⚠️ Common Symptoms (Sometimes Felt)\n\n• 🧠 Morning headaches or pain at the back of the head.\n• 🤯 Dizziness or feeling lightheaded.\n• 👀 Blurred or double vision.\n• ❤️ Fast or pounding heartbeat (palpitations).\n• 😴 Extreme tiredness or confusion in severe cases.\n📈 How Is BP Measured?\n\n• Normal: Less than 120/80 mmHg\n• Elevated: 120–129 / less than 80\n• High (Stage 1): 130–139 / 80–89\n• High (Stage 2): 140+ / 90+\n• Hypertensive Crisis: 180+ / 120+ (Seek immediate help)\n✅ What You Can Do (Precautions and Home Care)\n\n🥦 Eat Mindfully\n• Use less salt in cooking; avoid salty snacks like chips, pickles, papads.\n• Eat fruits and vegetables—like bananas, tomatoes, leafy greens.\n• Avoid fried, oily, and junk food.\n• Eat small, regular meals—don’t overeat.\n🏃 Move More\n• Walk daily for at least 30 minutes.\n• Try yoga or deep breathing (like anulom-vilom).\n• Avoid long sitting—stand or stretch hourly.\n⚖️ Maintain Healthy Weight\n• Losing a few kilos can lower BP.\n• Obesity is closely linked to high BP.\n🧂 Control Salt and Water Retention\n• Use rock salt or low-sodium salt if advised.\n• Avoid processed foods—they often hide extra salt.\n📵 Avoid Harmful Habits\n• 🚬 Quit smoking—it raises BP and harms vessels.\n• 🍺 Limit alcohol—it can spike BP.\n• ☕ Cut back on caffeine if sensitive to tea/coffee.\n🧘‍♀️ Manage Stress\n• Chronic stress increases BP—relax with:\n o Deep breathing\n o Meditation or prayer\n o Nature walks, music, or chatting with friends\n🩺 Monitor & Get Checked\n• Check BP regularly if you’re over 30, overweight, or have family history.\n• Keep records—home BP machines help.\n• Don’t stop medicine without consulting a doctor.\n\n🔔 When to See a Doctor\n• If BP is consistently above 140/90 mmHg.\n• If you have chest pain, breathlessness, or sudden vision issues.\n• If you’ve had a stroke or heart problem before.\n';
+
+  @override
+  String get asthma => 'Asthma\n\n🫁 What is Asthma?\n• A long-term condition that narrows and inflames your airways, making it hard to breathe.\n• It’s triggered by dust, pollution, smoke, cold air, exercise, or emotional stress.\n• It is not contagious and can be managed with proper care.\n⚠️ Common Symptoms\n\n• Trouble breathing, especially during activity or at night.\n• Wheezing — a whistling sound while exhaling.\n• Chest tightness — like something heavy on your chest.\n• Frequent coughing, especially in the morning or at night.\n• Shortness of breath even after light tasks.\n✅ What You Can Do at Home\n\n• Keep your home clean and dust-free — mop instead of sweeping.\n• Avoid strong smells like incense, perfumes, or cleaning sprays.\n• Always carry and use your inhaler if prescribed — don’t skip doses.\n• Wear a mask when cleaning or in polluted areas.\n• Practice breathing exercises like Anulom-Vilom or pursed-lip breathing.\n• Use steam inhalation occasionally to ease tightness.\n📌 When to See a Doctor\n• If you need your inhaler more than usual.\n• If symptoms disturb sleep or make it hard to talk or walk.\n• If lips or face turn blue — get emergency help immediately.\n❓ Common Questions\n\n• “Can I play sports with asthma?” → Yes, with proper treatment and warm-up.\n• “Is asthma lifelong?” → Often, but it can be controlled with care.\n• “Can adults get asthma?” → Yes, adult-onset asthma is common.\n';
+
+  @override
+  String get anaemia => 'Anaemia\n\n🩸 What is Anaemia?\n• It occurs when your body doesn’t have enough red blood cells or hemoglobin to carry oxygen.\n• Low oxygen makes you feel tired, weak, or dizzy.\n• It’s common in women (especially during pregnancy or heavy periods), children, and the elderly.\n\n⚠️ Common Symptoms\n\n• Constant tiredness even after resting.\n• Dizziness or lightheadedness when standing.\n• Pale skin, lips, or tongue.\n• Breathlessness while walking or climbing stairs.\n• Headaches, poor focus, cold hands and feet.\n\n🧠 Why Does it Happen?\n• Low intake of iron-rich foods like leafy greens, meat, or lentils.\n• Heavy periods or pregnancy-related iron loss.\n• Poor nutrient absorption due to stomach issues.\n• Internal bleeding or long-term illnesses.\n\n✅ What You Can Do\n\n• Eat more iron-rich foods like spinach, beetroot, jaggery, raisins, meat, eggs, fish, and beans.\n• Include Vitamin C foods like lemon or oranges with meals for better iron absorption.\n• Avoid tea or coffee right after meals — they block iron absorption.\n• Use iron cookware — it can add a small amount of iron to food.\n• Take iron tablets if prescribed by a doctor.\n\n📌 When to Seek Medical Help\n\n• If tiredness doesn’t improve with rest or diet.\n• If you\'re pregnant or recently gave birth.\n• If you feel very weak or faint often.\n❓ Common Questions\n\n• “Is anemia dangerous?” → Not usually, but untreated it can cause severe fatigue and other issues.\n• “Can food alone cure it?” → Mild cases can improve with diet; severe cases may need supplements.\n• “How long to recover?” → With proper care, usually within weeks to a few months.\n';
+
+  @override
+  String get arthritis => 'Arthritis\n\n🦴 What is Arthritis?\n• Arthritis means swelling and inflammation in joints like knees, fingers, elbows, or back.\n• It causes joint pain and stiffness, making movement difficult.\n• Types include osteoarthritis (age-related), rheumatoid arthritis (autoimmune), and others.\n• Common in older adults but can affect younger people too.\n\n⚠️ Common Symptoms\n• Joint pain — especially after rest or in the morning.\n• Swelling around joints, often warm to touch.\n• Difficulty bending, stretching, or doing daily tasks.\n• Grinding or clicking sounds in joints during movement.\n• Weak grip or trouble holding things.\n\n🧠 Why It Happens?\n• Wear and tear due to aging or overuse of joints.\n• Autoimmune issues where the body attacks its own joints.\n• Obesity increases pressure on knees and hips.\n• Previous injuries or joint infections.\n\n✅ What You Can Do\n• Stay active — walking, yoga, and swimming keep joints flexible.\n• Use warm compresses or heating pads to ease pain.\n• Lose excess weight to reduce joint pressure.\n• Eat anti-inflammatory foods like turmeric milk, omega-3s, fruits, and vegetables.\n• Use proper footwear and helpful tools for daily work.\n• Talk to a doctor about calcium and vitamin D supplements.\n\n📌 When to Visit a Doctor\n• If joint pain and stiffness continue for weeks.\n• If there is swelling, redness, or limited joint movement.\n• If morning stiffness lasts more than 30 minutes daily.\n';
+
+  @override
+  String get migrane => 'Migraine\n\n🧠 What is a Migraine?\n• A migraine is a throbbing headache, usually on one side of the head, lasting for hours or even days.\n• It often comes with nausea, sensitivity to light, sound, or smell, and extreme tiredness.\n\n⚠️ Symptoms\n• Pulsating pain on one side of the head.\n• Nausea or sometimes vomiting.\n• Sensitivity to bright light, loud sounds, or strong smells.\n• Visual issues like flashes of light or blurry vision (aura).\n• Feeling exhausted even after the headache ends.\n\n🚫 Triggers to Watch\n• Stress, irregular sleep, or skipping meals.\n• Bright lights, loud noises, or strong smells.\n• Hormonal changes (more common in women).\n• Dehydration or fasting.\n• Trigger foods like chocolate, cheese, and processed meats.\n\n✅ Relief and Prevention\n• Rest in a dark, quiet room during an episode.\n• Apply a cold pack or cloth to your forehead.\n• Keep a diary to track and avoid your triggers.\n• Eat on time and drink enough water.\n• Practice relaxation, deep breathing, or meditation regularly.\n';
+
+  @override
+  String get thyroid => 'Thyroid Problems (Hypothyroidism & Hyperthyroidism)\n\n🧠 What is Thyroid?\n• The thyroid is a small gland in your neck that controls energy and metabolism.\n• Too little thyroid hormone = hypothyroidism (slow body function).\n• Too much hormone = hyperthyroidism (overactive body function).\n\n⚠️ Hypothyroidism Symptoms (More Common in Women)\n• Constant tiredness or sleepiness.\n• Weight gain even with little eating.\n• Cold hands and feet.\n• Hair fall or dry, rough skin.\n• Irregular or heavy menstrual periods.\n• Feeling low, sad, or depressed.\n\n⚠️ Hyperthyroidism Symptoms\n• Weight loss despite normal eating.\n• Feeling anxious or nervous.\n• Shaking hands or rapid heartbeat.\n• Excess sweating or feeling too hot.\n• Difficulty sleeping or mood changes.\n\n✅ Daily Care\n• Get regular blood tests (TSH, T3, T4) to monitor thyroid levels.\n• Take prescribed medicines daily—usually required for life.\n• Eat a healthy, balanced diet; avoid too much soy or raw cabbage.\n• Manage stress through yoga, meditation, or deep breathing.\n';
+
+  @override
+  String get pCOSPCOD => 'Understanding PCOS and PCOD\n\n👩‍⚕️ What are PCOS and PCOD?\n• PCOD and PCOS are hormonal conditions affecting how a woman’s ovaries function.\n• They cause irregular periods, hormone imbalance, and sometimes small cysts in the ovaries.\n• PCOS is usually more severe and linked with metabolism and insulin resistance.\n\n📊 How Common Is It?\n• Around 1 in 5 women in India may have it during reproductive years (15–45).\n• Many women don’t realize they have it until issues like weight gain or fertility problems appear.\n\n⚠️ Common Symptoms\n• Irregular or missed periods — periods may come rarely or be too heavy.\n• Weight gain, especially around the stomach — hard to lose even with diet.\n• Extra hair growth on face, chest, or stomach (hirsutism).\n• Hair thinning or hair fall from the scalp.\n• Oily skin and acne, often around the jaw or cheeks.\n• Mood swings, anxiety, or depression.\n• Difficulty getting pregnant due to ovulation issues.\n\n🧠 Why Does It Happen?\n• The body produces more male hormones (androgens), which disrupt ovulation.\n• PCOS often includes insulin resistance, leading to weight gain or prediabetes.\n\n🩺 How Is It Diagnosed?\n• Based on symptoms, hormone blood tests, and pelvic ultrasound.\n• Doctors also check thyroid and sugar levels to rule out other causes.\n\n🔄 Can It Be Cured?\n• There is no permanent cure, but it can be managed with lifestyle and sometimes medicine.\n• With proper care, most women lead normal and healthy lives.\n\n✅ What Can You Do?\n🌿 Daily Lifestyle Changes:\n• Eat balanced meals — more veggies, fruits, whole grains; reduce sugar and fried food.\n• Exercise regularly — walk, dance, or do yoga for 30 minutes, 4–5 times a week.\n• Manage stress — try deep breathing, meditation, or journaling.\n• Track periods using a calendar or app.\n• Sleep 7–8 hours daily to support hormone health.\n\n💬 You’re not alone — millions of women have this, even if it’s not talked about openly.\n• It’s okay to feel confused or upset, but help is available.\n• Small daily changes can make a big difference — you deserve care and understanding.\n';
+
+  @override
+  String get anxiety => 'Anxiety (Generalized Anxiety Disorder)\n\n🧠 What Is It?\n• Anxiety is a constant feeling of worry or fear, even when there’s no clear reason.\n• It becomes a disorder when worry happens almost daily and affects your ability to live normally.\n\n⚠️ Symptoms\n• Feeling nervous or tense all the time, even over small issues.\n• Fast heartbeat, sweating, or shaky hands when stressed.\n• Constant “what if” thoughts — fearing bad things without reason.\n• Trouble focusing because the mind feels restless.\n• Feeling tired due to poor sleep or being on high alert always.\n\n🔍 Common Causes\n• Long-term stress at work, school, or home.\n• Past trauma or painful memories.\n• Family history of anxiety or related conditions.\n• Use of caffeine, alcohol, or certain substances.\n\n✅ What You Can Do\n• Practice deep breathing — inhale for 4 seconds, hold for 4, exhale slowly for 4.\n• Do light exercise like walking, yoga, or dancing.\n• Talk to someone — friend, family, or counselor.\n• Limit social media and avoid news or content that triggers anxiety.\n• Avoid excess tea, coffee, or energy drinks — they can worsen symptoms.\n';
+
+  @override
+  String get depression => 'Depression\n\n🧠 What Is It?\n• Depression is a serious condition where you feel sad, tired, and hopeless for weeks or months.\n• It’s more than just sadness — it affects how your mind and body function daily.\n\n⚠️ Symptoms\n• Feeling empty inside or unable to enjoy anything.\n• Losing interest in things you once loved — like music, people, or food.\n• Sleeping too much or too little.\n• Eating more or less than usual, with noticeable weight changes.\n• Feeling like a burden or that life has no meaning.\n• Having thoughts of self-harm or not wanting to live — this needs urgent support.\n\n🔍 Causes\n• Loss of someone close, a breakup, or losing a job.\n• Ongoing stress, loneliness, or money problems.\n• Health issues or hormonal changes.\n• Family history of depression.\n\n✅ What You Can Do\n• Get sunlight daily — even sitting by a window can help.\n• Do small tasks like brushing your teeth or making your bed — small wins matter.\n• Avoid alcohol, smoking, and drugs — they may feel helpful but make things worse.\n• Talk to a mental health professional — therapy and medication can help a lot.\n• Most importantly, know this: you\'re not lazy or weak. Depression is real, and you deserve help.\n';
+
+  @override
+  String get insomnia => 'Insomnia (Sleep Trouble)\n\n🟣 What Is It?\n• Insomnia means having trouble falling asleep, staying asleep, or going back to sleep even when you’re tired.\n• It leaves you feeling drained, irritable, and mentally foggy the next day.\n• If it continues for several days or weeks, it may need attention.\n\n😴 Common Symptoms\n• Lying awake in bed for hours without sleeping.\n• Waking up often during the night or too early.\n• Feeling tired despite being in bed all night.\n• Trouble focusing or feeling emotionally low during the day.\n• Fear or worry about bedtime itself.\n\n🔁 What Causes It?\n• Overthinking about stress, money, relationships, or health.\n• Using mobile or screen before bed — blue light keeps your brain alert.\n• Drinking caffeine (tea, coffee, cola) near bedtime.\n• Long naps during the day or irregular sleep routine.\n• Discomfort from pain, acidity, breathing issues, or frequent urination.\n• Big life changes — like exams, loss, job change, or moving.\n• Side effects from certain medicines or health issues.\n\n🧘‍♀️ What You Can Do (Lifestyle Tips)\n• Keep a fixed sleep schedule — same sleep and wake time every day.\n• Make your room sleep-friendly — cool, dark, quiet, with calming scents like lavender.\n• Avoid screens 1 hour before bed — no phone, TV, or laptop.\n• Wind down with breathing exercises or body scan meditation.\n• Avoid long or evening naps.\n• Move your body daily — 20–30 mins of walk or yoga can improve sleep.\n• Don’t force sleep — if awake for 20+ minutes, get up, read, or journal, then try again.\n\n🥗 Foods That Help with Sleep\n✅ Try these:\n• Warm milk or turmeric milk — helps make sleep hormones.\n• Bananas — relax muscles with magnesium and potassium.\n• Almonds, walnuts — rich in melatonin and good fats.\n• Chamomile or tulsi tea — calming, caffeine-free.\n• Oats and moong dal khichdi — easy to digest and calming.\n• Leafy greens and pumpkin seeds — boost magnesium and tryptophan.\n🚫 Avoid before bedtime:\n• Coffee, tea, green tea — even some \'herbals\' have caffeine.\n• Chocolate — contains hidden caffeine, especially dark types.\n• Fried, spicy, or sugary foods — cause bloating, acidity, or energy spikes.\n• Alcohol — may cause drowsiness but disturbs deep sleep later.\n• Large meals — eat dinner 2–3 hours before bed.\n\n🧡 When to Seek Help\n• If sleep troubles last over 2–3 weeks even after trying good habits.\n• If sleep issues are affecting your mood, energy, or daily life — talk to a doctor or therapist.\n';
+
+  @override
+  String get eatingDisorders => 'Eating Disorders\n\n🍽 What Are They?\n• Eating disorders are not just about food — they are linked to thoughts and feelings about body image, control, and self-worth.\n• They often come from stress, trauma, or low confidence — not greed or attention-seeking.\n• These are serious but treatable with the right help and support.\n\n🔎 Types of Eating Disorders\n🍽 Anorexia Nervosa: Avoiding food to feel “in control”\n• Intense fear of gaining weight even if underweight.\n• Skipping meals, hiding food, or lying about eating.\n• Overexercising, calorie counting, comparing with celebrities.\n• Feeling weak, dizzy, or missing periods.\n• Wearing loose clothes to hide weight loss.\n😞 Bulimia Nervosa: Eating a lot, then trying to undo it out of guilt.\n• Binge eating sweets or junk food during stress.\n• Vomiting, fasting, or using laxatives to “compensate.”\n• Hiding habits due to shame or guilt.\n• Mood swings, digestive issues, and low self-esteem.\n🥺 Binge Eating Disorder (BED): Emotional overeating without purging.\n• Eating out of sadness, boredom, or loneliness — not hunger.\n• Eating secretly and feeling guilty afterwards.\n• Feeling numb or out of control while eating.\n• Gaining weight and avoiding social events or shopping.\n\n🧠 What Might Cause It?\n• Teasing or criticism about body or weight.\n• Pressure from social media or beauty standards.\n• Past trauma, abuse, heartbreak, or bullying.\n• Using food to feel in control or escape feelings.\n• Unrealistic wedding, movie, or cultural ideals about thinness.\n• Diet culture that glorifies starvation as “healthy.”\n\n🩺 Physical Effects (Often Ignored)\n• Weakness, tiredness, fainting spells.\n• Hair fall, dry skin, brittle nails.\n• Missed periods or fertility issues.\n• Digestive issues like bloating, constipation, acidity.\n• Poor immunity and delayed healing.\n• Heart risks and weak bones over time.\n\n🛑 What It’s Not\n• Not just “being picky” or “trying to lose weight.”\n• Not “a phase” — it needs care and attention.\n• Not only a “Western issue” — it happens in India too.\n• Not about vanity — it’s a sign of emotional pain.\n\n❤️ How to Support Someone (or Yourself)\n• Listen with care and empathy — not judgment.\n• Avoid making any comments about body weight.\n• Don’t force food or scold — this increases shame.\n• Encourage regular meals, sleep, gentle movement, and expressing feelings.\n• Suggest seeing a therapist, support group, or dietitian trained in eating disorders.\n\n🌼 When to Seek Help\n• If eating habits affect your work, studies, or relationships.\n• If you feel ashamed after eating or avoid social events.\n• If you obsess over your body, food, or constantly weigh yourself.\n';
+
+  @override
+  String get stressAndBurnout => 'Stress and Burnout\n\n💭 What Is It?\n• Stress is normal in small amounts and can help you perform tasks.\n• But when stress is constant and doesn’t go away, it can turn into burnout — a state of deep mental, emotional, and physical exhaustion.\n• Burnout feels like your mind saying, “I can’t do this anymore.”\n\n🌪️ Common Symptoms\n😵‍💫 Mental:\n• Always thinking about problems or tasks.\n• Trouble focusing or remembering things.\n• Feeling overwhelmed or mentally stuck.\n• Lack of motivation for even small things.\n💔 Emotional:\n• Feeling drained, numb, or emotionally flat.\n• Quick to anger, sadness, or irritation.\n• Feeling helpless, hopeless, or trapped.\n• Losing interest in things you used to enjoy.\n😖 Physical:\n• Frequent headaches, body aches, or tiredness.\n• Too much or too little sleep.\n• Digestion issues, acidity, or low appetite.\n• Falling sick often — low immunity.\n\n💡 Stress vs Burnout\n• Stress = over-engaged; burnout = emotionally shut down.\n• Stress = urgent and tense; burnout = exhausted and numb.\n• With stress you still care; with burnout you feel like nothing matters.\n\n🧠 When You Might Be Burning Out\n• You dread each day — holidays don’t help.\n• You want to quit your job, school, or life duties.\n• You avoid people, even loved ones.\n• You no longer care about what once mattered.\n• You imagine running away or disappearing.\n• You feel like a failure despite trying hard.\n• You scroll endlessly, sleep too much, or isolate to escape.\n\n✅ What Can Help (Gentle Self-Care)\n🕒 Daily Life:\n• Take short breaks — even 10–15 minutes.\n• Follow simple routines for sleep, meals, and movement.\n• Avoid multitasking — do one thing at a time.\n• Say “no” when needed — protect your energy.\n🧘 Mind & Body:\n• Try deep breathing, prayer, or short meditation.\n• Stretch or walk gently — for calm, not fitness.\n• Talk to someone who listens without judging.\n• Limit screen time — especially doomscrolling or comparisons.\n💬 Mindset Shifts:\n• You’re not lazy — you’re exhausted and need care.\n• Rest is necessary, not a reward.\n• You don’t have to fix everything today.\n• Slowing down is still progress.\n🥗 Helpful Foods:\n• Drink water, nimbu pani, or buttermilk — stay hydrated.\n• Eat nuts, seeds, fruits, grains, and a little ghee.\n• Try calming teas like chamomile, tulsi, or ginger.\n• Avoid too much caffeine, sugar, fried food, or skipping meals.\n\n📍 When to Seek Help\n• If you feel constantly tired, sad, angry, or numb.\n• If your work, studies, or home life are affected.\n• If you can’t sleep or eat properly for weeks.\n• If you feel like giving up, quitting, or harming yourself — talk to a professional.\n';
+
+  @override
+  String get optionA => 'Not at all';
+
+  @override
+  String get optionB => 'Few days';
+
+  @override
+  String get optionC => 'Half of the days';
+
+  @override
+  String get optionD => 'Almost every day';
+
+  @override
+  String get diabetes_disease => 'Diabetes';
+}

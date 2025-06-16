@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "143727803686",
+    "project_id": "sukoonsetu",
+    "storage_bucket": "sukoonsetu.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:143727803686:android:2810a174e3bac8967d95e7",
+        "android_client_info": {
+          "package_name": "com.example.sukoon_setu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiROelIlZdD8u78q20im2NB-hn_fBe5uA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
